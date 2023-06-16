@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2F42E82A3C658600ACAD1A /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42E72A3C658600ACAD1A /* ListViewModel.swift */; };
+		3A2F42EB2A3C686200ACAD1A /* UICollectionViewLayout +Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42EA2A3C686200ACAD1A /* UICollectionViewLayout +Extensions.swift */; };
+		3A2F42ED2A3C69FB00ACAD1A /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42EC2A3C69FB00ACAD1A /* DataSource.swift */; };
+		3A2F42EF2A3C6C0200ACAD1A /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42EE2A3C6C0200ACAD1A /* UICollectionView+Extensions.swift */; };
+		3A2F42F12A3C703B00ACAD1A /* UIEdgeInsets+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42F02A3C703B00ACAD1A /* UIEdgeInsets+Extensions.swift */; };
+		3A2F42FB2A3C77BF00ACAD1A /* NSLayoutConstraint+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42F82A3C77BF00ACAD1A /* NSLayoutConstraint+AutoLayout.swift */; };
+		3A2F42FC2A3C77BF00ACAD1A /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42F92A3C77BF00ACAD1A /* UIView+AutoLayout.swift */; };
+		3A2F42FD2A3C77BF00ACAD1A /* ALAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42FA2A3C77BF00ACAD1A /* ALAttribute.swift */; };
+		3A2F43002A3C77EF00ACAD1A /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F42FF2A3C77EE00ACAD1A /* UIStackView+Extensions.swift */; };
+		3A2F43022A3C7DBD00ACAD1A /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F43012A3C7DBD00ACAD1A /* UILabel+Extensions.swift */; };
 		657CD90E24C72E310050EF8A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD90D24C72E310050EF8A /* DetailsViewController.swift */; };
 		657CD91224C735DD0050EF8A /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD91124C735DD0050EF8A /* Repo.swift */; };
 		657CD91424C735E30050EF8A /* Gist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657CD91324C735E30050EF8A /* Gist.swift */; };
@@ -42,6 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A2F42E72A3C658600ACAD1A /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		3A2F42EA2A3C686200ACAD1A /* UICollectionViewLayout +Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewLayout +Extensions.swift"; sourceTree = "<group>"; };
+		3A2F42EC2A3C69FB00ACAD1A /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		3A2F42EE2A3C6C0200ACAD1A /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		3A2F42F02A3C703B00ACAD1A /* UIEdgeInsets+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extensions.swift"; sourceTree = "<group>"; };
+		3A2F42F82A3C77BF00ACAD1A /* NSLayoutConstraint+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+AutoLayout.swift"; sourceTree = "<group>"; };
+		3A2F42F92A3C77BF00ACAD1A /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		3A2F42FA2A3C77BF00ACAD1A /* ALAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALAttribute.swift; sourceTree = "<group>"; };
+		3A2F42FF2A3C77EE00ACAD1A /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		3A2F43012A3C7DBD00ACAD1A /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		657CD90D24C72E310050EF8A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		657CD91124C735DD0050EF8A /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		657CD91324C735E30050EF8A /* Gist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gist.swift; sourceTree = "<group>"; };
@@ -90,6 +110,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A2F42E52A3C64EF00ACAD1A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F42E62A3C64FE00ACAD1A /* List */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3A2F42E62A3C64FE00ACAD1A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				A283494B21A5CDF100C5CA71 /* ListViewController.swift */,
+				A283497721A5D35300C5CA71 /* AvatarCell.swift */,
+				3A2F42E72A3C658600ACAD1A /* ListViewModel.swift */,
+				3A2F42EC2A3C69FB00ACAD1A /* DataSource.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		3A2F42E92A3C684F00ACAD1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F42EA2A3C686200ACAD1A /* UICollectionViewLayout +Extensions.swift */,
+				3A2F42EE2A3C6C0200ACAD1A /* UICollectionView+Extensions.swift */,
+				3A2F42F02A3C703B00ACAD1A /* UIEdgeInsets+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A2F42F62A3C77A900ACAD1A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F42FE2A3C77CF00ACAD1A /* Extensions */,
+				3A2F42F72A3C77BF00ACAD1A /* AutoLayout */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3A2F42F72A3C77BF00ACAD1A /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F42F82A3C77BF00ACAD1A /* NSLayoutConstraint+AutoLayout.swift */,
+				3A2F42F92A3C77BF00ACAD1A /* UIView+AutoLayout.swift */,
+				3A2F42FA2A3C77BF00ACAD1A /* ALAttribute.swift */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		3A2F42FE2A3C77CF00ACAD1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F42FF2A3C77EE00ACAD1A /* UIStackView+Extensions.swift */,
+				3A2F43012A3C7DBD00ACAD1A /* UILabel+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		657CD91024C7353E0050EF8A /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,11 +201,12 @@
 		A283494821A5CDF100C5CA71 /* Avatars */ = {
 			isa = PBXGroup;
 			children = (
+				3A2F42F62A3C77A900ACAD1A /* UI */,
+				3A2F42E92A3C684F00ACAD1A /* Extensions */,
+				3A2F42E52A3C64EF00ACAD1A /* Modules */,
 				657CD91024C7353E0050EF8A /* Model */,
 				A283494921A5CDF100C5CA71 /* AppDelegate.swift */,
-				A283494B21A5CDF100C5CA71 /* ListViewController.swift */,
 				657CD90D24C72E310050EF8A /* DetailsViewController.swift */,
-				A283497721A5D35300C5CA71 /* AvatarCell.swift */,
 				A283497B21A7ECC500C5CA71 /* NetworkService.swift */,
 				A28349C021A84CA400C5CA71 /* AvatarDownloader.swift */,
 				A283494D21A5CDF100C5CA71 /* Main.storyboard */,
@@ -291,16 +369,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2F42FB2A3C77BF00ACAD1A /* NSLayoutConstraint+AutoLayout.swift in Sources */,
+				3A2F42EB2A3C686200ACAD1A /* UICollectionViewLayout +Extensions.swift in Sources */,
 				A283497821A5D35300C5CA71 /* AvatarCell.swift in Sources */,
 				A283494C21A5CDF100C5CA71 /* ListViewController.swift in Sources */,
+				3A2F42ED2A3C69FB00ACAD1A /* DataSource.swift in Sources */,
 				657CD91424C735E30050EF8A /* Gist.swift in Sources */,
 				A283497C21A7ECC500C5CA71 /* NetworkService.swift in Sources */,
 				657CD91224C735DD0050EF8A /* Repo.swift in Sources */,
 				D3C0572A2A0EA887009F6706 /* Constants.swift in Sources */,
+				3A2F42EF2A3C6C0200ACAD1A /* UICollectionView+Extensions.swift in Sources */,
+				3A2F42F12A3C703B00ACAD1A /* UIEdgeInsets+Extensions.swift in Sources */,
 				65EB85BB24C720D30004D087 /* GitUser.swift in Sources */,
 				657CD90E24C72E310050EF8A /* DetailsViewController.swift in Sources */,
+				3A2F42FD2A3C77BF00ACAD1A /* ALAttribute.swift in Sources */,
+				3A2F42FC2A3C77BF00ACAD1A /* UIView+AutoLayout.swift in Sources */,
 				A283494A21A5CDF100C5CA71 /* AppDelegate.swift in Sources */,
+				3A2F43022A3C7DBD00ACAD1A /* UILabel+Extensions.swift in Sources */,
+				3A2F43002A3C77EF00ACAD1A /* UIStackView+Extensions.swift in Sources */,
 				A28349C221A84CA400C5CA71 /* AvatarDownloader.swift in Sources */,
+				3A2F42E82A3C658600ACAD1A /* ListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

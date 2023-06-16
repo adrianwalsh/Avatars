@@ -1,7 +1,7 @@
 
 import Foundation
 
-struct GitUser: Codable {
+struct GitUser: Codable, Hashable {
     let login: String
     let id: Int
     let avatar_url: String

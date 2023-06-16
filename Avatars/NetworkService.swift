@@ -6,7 +6,16 @@ enum NetworkError: Error {
     case noData
 }
 
-class NetworkService {
+protocol NetworkServiceType {
+    @discardableResult
+    func get<Object: Codable>(
+        url: String,
+        resultType: Object.Type,
+        completion: @escaping (Result<Object, Error>) -> Void
+    ) -> URLSessionDataTask
+}
+
+final class NetworkService: NetworkServiceType {
 
     private let session = URLSession.shared
 
